@@ -17,7 +17,7 @@ yarn install
 node .
 ```
 
-Ass you'll see, there is nothing really going on in this repo other than referencing the library and attempting to import it:
+As you will see, there is nothing really going on in this repo other than referencing the library and attempting to import it:
 
 ```json
 // package.json
@@ -41,5 +41,7 @@ console.log(client);
 ```
 
 Note: This has been lodged on email support and can be found as ticket number `#55242`
+
+---
 
 Go you guys! Love ya 👋
