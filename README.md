@@ -34,6 +34,8 @@ Ass you'll see, there is nothing really going on in this repo other than referen
 and the main entry:
 
 ```js
+// index.js
+
 const client = require("@vercel/client");
 console.log(client);
 ```
