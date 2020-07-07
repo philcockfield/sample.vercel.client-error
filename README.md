@@ -36,7 +36,7 @@ and the main entry:
 ```js
 // index.js
 
-const client = require("@vercel/client");
+const client = require('@vercel/client');
 console.log(client);
 ```
 
@@ -45,3 +45,11 @@ Note: This has been lodged on email support and can be found as ticket number `#
 ---
 
 Go you guys! Love ya 👋
+
+## Work Around
+
+add `@vercel/build-utils` as a dependency.
+
+[Pull Request](https://github.com/vercel/vercel/pull/4804)
+
+![email](https://user-images.githubusercontent.com/185555/86852786-792bc700-c109-11ea-809c-724592f4052c.png)
